@@ -1,0 +1,24 @@
+{ add_host = None (List Text)
+, cgroup_parent = None Text
+, debug = None Bool
+, dns = None (List Text)
+, dns_opt = None (List Text)
+, dns_search = None (List Text)
+, executable = None Text
+, hostname = None Text
+, infra = None Bool
+, infra_command = None Text
+, infra_conmon_pidfile = None Text
+, infra_image = None Text
+, ip = None Text
+, label = None ../JSON.dhall
+, label_file = None Text
+, mac_address = None Text
+, network = None Text
+, no_hosts = None Bool
+, pod_id_file = None Text
+, publish = None (List Text)
+, recreate = None Bool
+, share = None Text
+, state = None ./state.dhall
+}

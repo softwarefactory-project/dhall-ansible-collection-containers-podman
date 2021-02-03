@@ -1,0 +1,1 @@
+{ authfile : Optional Text, executable : Optional Text, registry : Text }
